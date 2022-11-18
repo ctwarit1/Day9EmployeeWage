@@ -1,5 +1,7 @@
 package com.bridgelabz;
 
+//added UC8 and calculated wage for multiple companies
+
 public class EmployeeWageWithOopsUC8 {
 
 //	instance variable	
@@ -40,7 +42,7 @@ public class EmployeeWageWithOopsUC8 {
 
 	public static void main(String[] args) {
 		System.out.println("\n Welcome to Employee Wage Computation Program !\n");
-		EmployeeWageWithOopsUC8.computeEmpWage("Maruti Suzuki", 30, 20, 90);
+		EmployeeWageWithOopsUC8.computeEmpWage ("Maruti Suzuki", 30, 20, 90);
 		EmployeeWageWithOopsUC8.computeEmpWage("Mahindra Tech", 40, 25, 120);
 		EmployeeWageWithOopsUC8.computeEmpWage("Toyota", 50, 18, 90);
 	}
